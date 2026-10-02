@@ -15,9 +15,9 @@ Accelerate 0.34.2 编写，另需 datasets、evaluate、numpy、tqdm、scikit-le
 依赖准备必须遵守 AGENTS.md，先获许可；本文件不会安装或升级任何依赖。
 
 在项目根目录运行（Windows PowerShell 或 Linux shell 均可）：
-    conda run --no-capture-output --name MLLearn python -X utf8 LLM/FineTunePretrainedModel.py
+    conda run --name MLLearn python -X utf8 LLM/FineTunePretrainedModel.py
 
--X utf8 让中文输出使用 UTF-8；--no-capture-output 避免 Conda 捕获后重新编码。
+-X utf8 用于让 Windows 下的中文教学输出与错误信息使用 UTF-8 编码。
 
 首次运行会下载 BERT、MRPC 数据和 Evaluate 指标；需要访问 Hugging Face。
 默认缓存遵循 Hugging Face 设置，可在运行前通过 HF_HOME 指定缓存目录。
