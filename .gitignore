@@ -1,0 +1,20 @@
+# 数据集目录，由各台机器分别下载或准备。
+data/
+
+# 训练产生的模型和 TensorBoard 日志目录。
+checkpoints/
+runs/
+
+# Python 运行缓存。
+__pycache__/
+*.py[cod]
+
+# 模型权重与导出文件，需要时单独传输。
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# 本机环境变量和凭据配置。
+.env
+.env.*

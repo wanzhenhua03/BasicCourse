@@ -1,0 +1,16 @@
+# 教程首次运行时下载的数据集。
+data/
+
+# TensorBoard 事件日志。
+runs/
+
+# 训练过程保存的模型参数。
+checkpoints/
+
+# 第 7 课下载包中的示例图片和标签文件。
+img/
+
+# Python 运行缓存。
+__pycache__/
+*.py[cod]
+
